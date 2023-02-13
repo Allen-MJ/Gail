@@ -36,7 +36,7 @@ afterEvaluate {
                 from components.release
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'cn.gail.frame' // 这是需要打包的Module的包名，根据需要更换
-//                artifactId = 'final' //多模块打包时用到，只打包一个Module用不到
+                artifactId = 'core' //多模块打包时用到，只打包一个Module用不到
                 version = '1.0.0'
             }
         }
