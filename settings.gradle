@@ -1,0 +1,3 @@
+include ':gailframe'
+include ':app'
+rootProject.name = "Gail"
